@@ -6,14 +6,25 @@
         <link rel="stylesheet" href="style.css">
         <link href="node_modules/aos/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
         <title>About Jihwan</title>
-
     </head>
     <body>
-        <script>
+        <script> 
             AOS.init();
+            /* 주석부분과 같이 AOS API - Global Setting 가능
+            AOS.init({
+                offset: 120,
+                delay: 0,
+                duration: 400,
+                easing: 'ease',
+                once: false,
+                mirror: false,
+                anchorPlacement: 'top-bottom'
+            });    
+            */
         </script>
         <img id="logo" style="cursor:pointer;" onclick="window.scrollTo(0,0);" class="float" src="res/logo.svg" alt="logo" data-aos="fade-up"  data-aos-anchor-placement="top-bottom"/>
         <a id="mail" href="mailto:ohjihwan123@naver.com">ohjihwan123@naver.com</a>
@@ -27,7 +38,7 @@
                     <div id="about">
                         <h1 class="title">About Me</h1>
                         <div id="profile" data-aos="fade-right">
-                            <img src="res/지환1.png" alt="O's">
+                            <img src="res/지환.jpg" alt="O's">
                             <div id="frame"></div>
                             <div>
                                 <span id="name">오지환</span>
@@ -122,6 +133,19 @@
                         <h1 class="title">Projects</h1>
                         <ul>
                             <li>
+                                <h1>Portfoilo(2023) - Front-end</h1>
+                                <hr>
+                                <h2 data-aos="fade-down" data-aos-anchor-placement="bottom-center"><a href="https://github.com/Ohsaam/WumpusWorld-AI" target="blank">웹 반응형 포트폴리오 개발</a></h2>
+                                <h3 data-aos="fade-down" data-aos-anchor-placement="top-bottom">개인프로젝트(1인)</h3>
+                                <h3 data-aos="fade-down" data-aos-anchor-placement="top-bottom">HTML,CSS,SCCS,JavaScript</h3>
+                                <div>
+                                    <img data-aos="fade-right" src="./res/project/Portfoilo/1.png" alt="">
+                                    <img data-aos="fade-left" src="./res/project/Portfoilo/2.png" alt="">
+                                    <img data-aos="fade-left" src="./res/project/Portfoilo/3.png" alt="">
+                                </div>
+                            </li>
+                            
+                            <li>
                                 <h1 class="projects-h1">Socket Programming(2022) - Backend개발</h1>
                                 <hr>
                                 <h2 data-aos="fade-down" data-aos-anchor-placement="bottom-center"><a href="https://github.com/Ohsaam/socketprograming" target="blank">TCP/IP 활용한 이메일 전송 프로그램</a></h2>
@@ -146,22 +170,11 @@
                                 </div>
                             </li>
                            
-                            <li>
-                                <h1>Web-Portfolio(2023) - Front-end 개발</h1>
-                                <hr>
-                                <h2 data-aos="fade-down" data-aos-anchor-placement="bottom-center"><a href="https://ohsaam.github.io/" target="blank">웹 반응형 포트폴리오 구현 </a></h2>
-                                <h3 data-aos="fade-down" data-aos-anchor-placement="top-bottom">토이프로젝트(1인)</h3>
-                                <h3 data-aos="fade-down" data-aos-anchor-placement="top-bottom">HTML,CSS,SCSS,JavaScript</h3>
-                                <div>
-                                    <img data-aos="fade-right" src="res/project/Portfoilo/1.png" alt="">
-                                    <img data-aos="fade-up" src="res/project/Portfoilo/2.png" alt="">
-                                    <img data-aos="fade-left" src="res/project/Portfoilo/3.png" alt="">
-                                </div>
-                            </li>
                         </ul>
                     </div>
                 </div>
             </section>
+
             <footer>
                 <div class="size-wrapper">
                     <div>
