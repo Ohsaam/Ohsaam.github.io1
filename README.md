@@ -1,2 +1,1 @@
-# Ohsaam.github.io1
-Ohsaam.github.io
+# 모바일 반응형

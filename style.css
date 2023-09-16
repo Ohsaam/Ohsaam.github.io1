@@ -1,0 +1,717 @@
+/*mobile*/
+@media only screen
+and (max-width: 768px) {
+    #logo{
+        position: fixed;
+        z-index: 999;
+        width: 32px;
+        height: 32px;
+        top: 10px;
+        left: 10px;
+    }
+
+    .size-wrapper{
+        width: 100vw;
+        margin: 0 auto;
+        padding: 15px 0;
+    }
+
+    #bg{
+        position: fixed;
+        width: 1024px;
+        height: 100vh;
+        z-index: 996;
+    }
+
+    .title{
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    /*About*/
+    #about > #profile{
+        text-align: center;
+        margin-top: -150px;
+    }
+
+    #about > #profile > img{
+        height: 256px;
+        width: 256px;
+    }
+
+    #about > #profile > #frame{
+        width: 256px;
+        height: 256px;
+        position: absolute;
+        border: solid 2px #C7F3F1;
+        margin: 0 auto;
+        left: -10px;
+        right: 0;
+        top: -10px;
+    }
+
+    #about > #profile > div > #name{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    #about > #profile > div > #nickname{
+        font-size: 1.3rem;
+        color: #A6A6A6;
+    }
+
+    #about > #profile > p{
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    #about >#profile > p > a{
+        color: black;
+    }
+
+    #about > #sub_title{
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #about > #description{
+        padding: 0 30px;
+        clear: both;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bold;
+        margin: 30px 0;
+    }
+
+    /*Skills*/
+    #hashtag{
+        text-align: center;
+    }
+
+    #hashtag > div::before{
+        content: "#"
+    }
+
+    #hashtag > div{
+        text-align: center;
+        margin: 0 auto;
+        display: inline-block;
+        width: 32%;
+        font-size: 1rem;
+        line-height: 5rem;
+        font-weight: bold;
+    }
+
+    #hashtag > div:hover {
+        transition-duration: 200ms;
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        cursor: default;
+    }
+
+    /*Affiliation & Activity*/
+    ul.pretty > li{
+        width: 100%;
+        font-size: 1.5rem;
+        text-align : center;
+    }
+
+    ul.pretty >li >.logo{
+        height: 100%;
+        vertical-align: center;
+    }
+
+    ul.pretty > li > .logo > a > img{
+        width: 150px;
+    }
+
+    ul.pretty > li > .logo > a > img:hover {
+        transition-duration: 200ms;
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+    }
+
+    ul.pretty > li > .explain{
+        font-size: 0.9rem;
+        font-weight: bold;
+        margin: 20px 0;
+    }
+
+    /*Projects*/
+    #projects > ul > li{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #projects > ul > li > div{
+        width: 100%;
+        position: relative;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        text-align: center;
+    }
+
+    #projects > ul > li > h2 > a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #projects > ul > li > div > img{
+        margin: 15px;
+        position: relative;
+        width: 180px;
+        height: 180px;
+        border-radius: 15px;
+    }
+
+    #projects > ul > li > div > img:hover{
+        transition: all 300ms;
+        /*transition-duration: 200ms;*/
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+    }
+}
+
+/*tablet*/
+@media only screen
+and (min-width: 768px)
+and (max-width: 1024px){
+    #logo{
+        position: fixed;
+        z-index: 999;
+        width: 32px;
+        height: 32px;
+        top: 10px;
+        left: 10px;
+    }
+
+    .size-wrapper{
+        width: 100vw;
+        margin: 0 auto;
+        padding: 15px 0;
+    }
+
+    #bg{
+        position: fixed;
+        width: 1024px;
+        height: 100vh;
+        z-index: 996;
+    }
+
+    .title{
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    /*About*/
+    #about > #profile{
+        text-align: center;
+        float: left;
+        margin-top: -150px;
+    }
+
+    #about > #profile > img{
+        height: 256px;
+        width: 256px;
+        margin-left: 30px;
+    }
+
+    #about > #profile > #frame{
+        width: 256px;
+        height: 256px;
+        position: absolute;
+        border: solid 2px #C7F3F1;
+        top: -10px;
+        left: 0;
+        margin-left: 40px;
+    }
+
+    #about > #profile > div > #name{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    #about > #profile > div > #nickname{
+        font-size: 1.3rem;
+        color: #A6A6A6;
+    }
+
+    #about > #profile > p{
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    #about >#profile > p > a{
+        color: black;
+    }
+
+    #about > #sub_title{
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: right;
+        float: right;
+        margin-top: 50px;
+        margin-right: 30px;
+    }
+
+    #about > #description{
+        clear: both;
+        text-align: center;
+        margin: 50px 0 0 50px;
+        font-size: 1.3rem;
+        font-weight: bold;
+        height: 300px;
+    }
+
+    /*Skills*/
+    #hashtag{
+        text-align: center;
+    }
+
+    #hashtag > div::before{
+        content: "#"
+    }
+
+    #hashtag > div{
+        text-align: center;
+        margin: 0 auto;
+        display: inline-block;
+        width: 32%;
+        font-size: 1.5rem;
+        line-height: 5rem;
+        font-weight: bold;
+    }
+
+    #hashtag > div:hover {
+        transition-duration: 200ms;
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        cursor: default;
+    }
+
+    /*Affiliation & Activity*/
+    ul.pretty > li{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 25px;
+        font-size: 1.5rem;
+        display: flex;
+    }
+
+    ul.pretty > li >.logo{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul.pretty > li > .logo > a > img{
+        width: 150px;
+        vertical-align: center;
+    }
+
+    ul.pretty > li > .logo > a > img:hover {
+        transition-duration: 200ms;
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+    }
+
+    ul.pretty > li > .explain{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+
+    /*Projects*/
+    #projects > ul > li{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #projects > ul > li:first-child > h1{
+        margin-top: 0px;
+    }
+
+    #projects > ul > li > h1 {
+        display: block;
+        margin-top: 120px;
+    }
+
+    #projects > ul > li > div{
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    #projects > ul > li > h2 > a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #projects > ul > li > div > img{
+        position: relative;
+        width: 180px;
+        height: 180px;
+        border-radius: 15px;
+    }
+
+
+    #projects > ul > li > div > img:hover{
+        transition: all 300ms;
+        /*transition-duration: 200ms;*/
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+    }
+}
+
+/* Desktops and laptops */
+@media only screen
+and (min-width : 1025px){
+    #logo{
+        position: fixed;
+        z-index: 999;
+        width: 64px;
+        height: 64px;
+        top: 10px;
+        left: 10px;
+    }
+
+    .size-wrapper{
+        width: 1024px;
+        margin: 0 auto;
+        padding: 15px 0;
+    }
+
+    #bg{
+        position: fixed;
+        width: 1420px;
+        height: 100vh;
+        z-index: 996;
+    }
+
+    /* 공통 */
+    .title{
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: center;
+        line-height: 3rem;
+        padding-top: 20px;
+    }
+
+    /* 어바웃 */
+    #about > #sub_title{
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: right;
+        float: right;
+        margin-top: 50px;
+    }
+    #about > #profile{
+        text-align: center;
+        float: left;
+        margin-top: -150px;
+    }
+
+    #about > #profile > p{
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    #about >#profile > p > a{
+        color: black;
+    }
+
+    #about > #profile > img{
+        height: 256px;
+        width: 256px;
+    }
+
+
+    #about > #profile > #frame{
+        width: 256px;
+        height: 256px;
+        position: absolute;
+        border: solid 2px #C7F3F1;
+        top: -10px;
+        left: 0;
+        margin-left: 10px;
+    }
+
+    #about > #profile > div > #name{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    #about > #profile > div > #nickname{
+        font-size: 1.3rem;
+        color: #A6A6A6;
+    }
+
+    #about > #description{
+        clear: both;
+        text-align: center;
+        margin: 50px 0 0 50px;
+        font-size: 1.3rem;
+        font-weight: bold;
+        height: 300px;
+    }
+
+    #hashtag{
+        text-align: center;
+    }
+
+    #hashtag > div::before{
+        content: "#"
+    }
+
+    #hashtag > div{
+        text-align: center;
+        margin: 0 auto;
+        display: inline-block;
+        width: 32%;
+        font-size: 2rem;
+        line-height: 5rem;
+        font-weight: bold;
+    }
+
+    #hashtag > div:hover {
+        transition-duration: 200ms;
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        cursor: default;
+    }
+
+    ul.pretty > li{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 25px;
+        font-size: 1.5rem;
+        display: flex;
+    }
+
+    ul.pretty > li >.logo{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul.pretty > li > .logo > a > img{
+        width: 150px;
+        vertical-align: center;
+    }
+
+    ul.pretty > li > .logo > a > img:hover {
+        transition-duration: 200ms;
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+    }
+
+    ul.pretty > li > .explain{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+
+    #projects > ul > li{
+        width: 100%;
+    }
+
+    #projects > ul > li:first-child > h1{
+        margin-top: 0px;
+    }
+
+    #projects > ul > li > h1 {
+        display: block;
+        margin-top: 120px;
+    }
+
+    #projects > ul > li > div{
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    #projects > ul > li > h2 > a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #projects > ul > li > div > img{
+        position: relative;
+        width: 320px;
+        height: 320px;
+        border-radius: 15px;
+    }
+
+
+    #projects > ul > li > div > img:hover{
+        transition: all 300ms;
+        /*transition-duration: 200ms;*/
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+    }
+}
+
+/* Desktops and laptops */
+@media only screen
+and (min-width : 1420px){
+    #logo{
+        position: fixed;
+        z-index: 999;
+        width: 64px;
+        height: 64px;
+        top: 10px;
+        left: 10px;
+    }
+
+    #bg{
+        width: 100vw;
+    }
+
+    .size-wrapper{
+        width: 1024px;
+        margin: 0 auto;
+        padding: 15px 0;
+    }
+}
+
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: "NanumGothic", "NanumGothicOTF", "Nanum Gothic", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#mail{
+    position: fixed;
+    z-index: 999;
+    top: 10px;
+    right: 10px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#body_wrapper{
+    position: absolute;
+    z-index: 998;
+}
+
+.block{
+    display: block;
+}
+
+#box{
+    width: 100vw;
+    height: 400vh;
+    /*background: #808080;*/
+    background: white;
+    opacity: 0.5;
+}
+
+.intro{
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+}
+
+#kor{
+    width: 250px;
+    opacity: 0;
+    padding-top: 200px;
+    z-index: 999;
+}
+
+#eng{
+    width: 250px;
+    z-index: 999;
+}
+
+#scroll {
+    position:fixed;
+    left: 0;
+    right: 0;
+    bottom: 64px;
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    z-index: 999;
+    display: block;
+    animation: motion 1.2s linear 0s infinite alternate;
+}
+
+@keyframes motion {
+    0% { bottom: 64px;}
+    25% {bottom: 74px;}
+    50% {bottom: 64px;}
+    100%{bottom: 64px;}
+}
+
+.content{
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #FFFFFF;
+}
