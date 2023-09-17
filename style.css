@@ -4,8 +4,8 @@ and (max-width: 768px) {
     #logo{
         position: fixed;
         z-index: 999;
-        width: 32px;
-        height: 32px;
+        width: 40px;
+        height: 40px;
         top: 10px;
         left: 10px;
     }
@@ -191,8 +191,8 @@ and (max-width: 1024px){
     #logo{
         position: fixed;
         z-index: 999;
-        width: 32px;
-        height: 32px;
+        width: 40px;
+        height: 40px;
         top: 10px;
         left: 10px;
     }
@@ -233,7 +233,7 @@ and (max-width: 1024px){
         width: 256px;
         height: 256px;
         position: absolute;
-        border: solid 2px #fff;
+        border: solid 2px black;
         top: -10px;
         left: 0;
         margin-left: 40px;
@@ -400,8 +400,8 @@ and (min-width : 1025px){
     #logo{
         position: fixed;
         z-index: 999;
-        width: 64px;
-        height: 64px;
+        width: 75px;
+        height: 75px;
         top: 10px;
         left: 10px;
     }
@@ -461,7 +461,7 @@ and (min-width : 1025px){
         width: 256px;
         height: 256px;
         position: absolute;
-        border: solid 2px #fff;
+        border: solid 2px black;
         top: -10px;
         left: 0;
         margin-left: 10px;
@@ -605,8 +605,8 @@ and (min-width : 1420px){
     #logo{
         position: fixed;
         z-index: 999;
-        width: 64px;
-        height: 64px;
+        width: 80px;
+        height: 80px;
         top: 10px;
         left: 10px;
     }
