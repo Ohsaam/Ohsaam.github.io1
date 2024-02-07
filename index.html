@@ -21,7 +21,7 @@
                 duration: 400,
                 easing: 'ease',
                 once: false,
-                mirror: false,
+                mirror: false,++
                 anchorPlacement: 'top-bottom'
             });    
             */
@@ -37,9 +37,8 @@
                     <div id="about">
                         <h1 class="title">About Me</h1>
                         <div id="profile" data-aos="fade-right">
-                            <img src="res/지환.jpg" alt="">
+                            <img src="res/취업사진.jpg" alt="">
 
-                            <div id="frame"></div>
                             <div>
                                 <span id="name">오지환</span>
                                 <span id="nickname">@Ohsaam</span>
@@ -50,7 +49,7 @@
                                 <a href="https://github.com/Ohsaam"><i class="xi-github"></i></a>
                             </p>
                         </div>
-                        <h2 data-aos="fade-left" data-aos-anchor-placement="bottom-center" class="block" id="sub_title">국제학을 전공하고<br>동물을 좋아하는<br><span style="background-color: black; color: #FFFFFF; padding: 0 8px;">개발자</span>입니다.</h2>
+                        <h2 data-aos="fade-left" data-aos-anchor-placement="bottom-center" class="block" id="sub_title">끊임없이 도전하고<br>배우려고 하는<br><span style="background-color: black; color: #FFFFFF; padding: 0 8px;">개발자</span>입니다.</h2>
                         <article data-aos="fade-up" id="description">
                             <p>안녕하세요 개발자 오지환입니다.</p>
                             <p>하고 싶은 프로젝트가 생기면 환경과 역할에 국한하지 않고</p>
@@ -75,6 +74,7 @@
                             <div>Python</div>
                             <div>JavaScript</div>
                             <div>Jsp</div>
+                            <div>Spring Boot</div>
                         </article>
                     </div>
                 </div>
@@ -109,6 +109,19 @@
                                     <div>2016 ~</div>
                                 </div>
                             </li>
+
+                            <li>
+                                <div class="logo">
+                                    <a href="https://catholic.ac.kr">
+                                        <img src="res/정보처리기사.jpg" data-aos="fade-up" alt="">
+                                    </a>
+                                </div>
+                                <div class="explain">
+                                    <div>정보처리기사</div>
+                                    <div>2023.09.01 취득</div>
+                                </div>
+                            </li>
+
    
 
                         </ul>
@@ -122,38 +135,46 @@
                     <div id="projects">
                         <h1 class="title">Projects</h1>
                         <ul>
+
                             <li>
-                                <h1 class="projects-h1">Socket Programming(2022) - Backend개발</h1>
+                                <h1 class="projects-h1">그룹웨어(WorkConGW) - Backend개발(진행중)</h1>
                                 <hr>
-                                <h2 data-aos="fade-down" data-aos-anchor-placement="bottom-center"><a href="https://github.com/Ohsaam/socketprograming" target="blank">TCP/IP 활용한 이메일 전송 프로그램</a></h2>
-                                <h3 data-aos="fade-down" data-aos-anchor-placement="top-bottom">컴퓨터와네트워크(5인)</h3>
-                                <h3 data-aos="fade-down" data-aos-anchor-placement="top-bottom">Python,twilio,tkinter,hashlib</h3>
+                                <h2 data-aos="fade-down" data-aos-anchor-placement="bottom-center"><a href="https://github.com/jungtaeyeon/WorkConGW" target="blank">그룹웨어 개발<i class="xi-github"></i><span style="font-size: 14px;">클릭 시 깃허브 페이지로 이동합니다.</span></a></h2>
+                                <h3 data-aos="fade-down" data-aos-anchor-placement="top-bottom">팀(4인)-팀장</h3>
+                                <h3>- ERwin을 통한 데이터베이스 설계 진행 및 개발표준정의서, 요구사항정의서, 기능명세서,상관모델링 문서작업 진행</h3>
+                                <h3>- 인터셉터를 통한 권한 별 로그인(비밀번호-암호화) 처리 구현, 홈화면, 마이페이지 구현 </h3>
+                                <h3>- 익명게시판 구현</h3>
+                                <h3>- 페이징처리 DTO 클래스 로직 구현 및 공통코드 제작</h3>
+                                <h3>- AWS EC2 디비 구축 진행</h3>
+                                <h4>- <a href = "https://docs.google.com/spreadsheets/d/1t9sCLtStfEMNKuizDF3dDLgz1X0qXi81/edit?rtpof=true&sd=true#gid=1407741134"  target="blank">요구사항정의서/기능명세서/상관모델링 사이트</a></h4>
+                                <h4>- <a href = "https://docs.google.com/spreadsheets/d/1pY1IP5v8_gybodaf7DKnVunPz3uuKo3y/edit?rtpof=true&sd=true#gid=1005822265"  target="blank">테이블 목록정의서/테이블 정의서 사이트</a></h4>
+                                <h3 data-aos="fade-down" data-aos-anchor-placement="top-bottom">Spring Boot, css, html, JavaScript, jquery, Jsp, Jstl</h3>
+                                
                                 <div>
-                                    <img data-aos="fade-right" src="res/project/Socket/1.jpg" alt="">
-                                    <img data-aos="fade-up" src="res/project/Socket/2.jpg" alt="">
-                                    <img data-aos="fade-left" src="res/project/Socket/3.jpg" alt="">
+                                    <img data-aos="fade-right" src="./res/project/WorkConGW/loginForm.jpg" alt="">
+                                    <img data-aos="fade-left" src="./res/project/WorkConGW/anony.jpg" alt="">
+                                    <img data-aos="fade-left" src="./res/project/WorkConGW/hom.jpg" alt="">
                                 </div>
                             </li>
 
-                            
                             <li>
-                                <h1>Wumpus World(2023) - Backend개발</h1>
+                                <h1 class="projects-h1">도서관리프로그램(2023) - Backend개발</h1>
                                 <hr>
-                                <h2 data-aos="fade-down" data-aos-anchor-placement="bottom-center"><a href="https://github.com/Ohsaam/WumpusWorld-AI" target="blank">KB 기반 에이전트 구현 및 Wumpus 구현</a></h2>
-                                <h3 data-aos="fade-down" data-aos-anchor-placement="top-bottom">인공지능(5인)</h3>
-                                <h3 data-aos="fade-down" data-aos-anchor-placement="top-bottom">Python</h3>
+                                <h2 data-aos="fade-down" data-aos-anchor-placement="bottom-center"><a href="https://github.com/Ohsaam/oh_login" target="blank">도서관리프로그램 개발<i class="xi-github"></i><span style="font-size: 14px;">클릭 시 깃허브 페이지로 이동합니다.</span></a></h2>
+                                <h3 data-aos="fade-down" data-aos-anchor-placement="top-bottom">개인프로젝트(1인)</h3>
+                                <h3 data-aos="fade-down" data-aos-anchor-placement="top-bottom">HTML, JavaScript, CSS, firebase(DB)</h3>
                                 <div>
-                                    <img data-aos="fade-right" src="res/project/Wumpus/1.jpg" alt="">
-                                    <img data-aos="fade-up" src="res/project/Wumpus/2.jpg" alt="">
-                                    <img data-aos="fade-left" src="res/project/Wumpus/3.jpg" alt="">
+                                    <img data-aos="fade-right" src="./res/project/Book/Book.png" alt="">
+                                    <img data-aos="fade-left" src="./res/project/Book/회원가입.png" alt="">
+                                    <img data-aos="fade-left" src="./res/project/Book/게시판.png" alt="">
                                 </div>
                             </li>
-                           
+
 
                             <li>
                                 <h1 class="projects-h1">Socket Programming(2023) - Backend개발</h1>
                                 <hr>
-                                <h2 data-aos="fade-down" data-aos-anchor-placement="bottom-center"><a href="https://github.com/Ohsaam/ChatJava" target="blank">채팅프로그램 개발</a></h2>
+                                <h2 data-aos="fade-down" data-aos-anchor-placement="bottom-center"><a href="https://github.com/Ohsaam/ChatJava" target="blank">채팅프로그램 개발<i class="xi-github"></i><span style="font-size: 14px;">클릭 시 깃허브 페이지로 이동합니다.</span></a></h2>
                                 <h3 data-aos="fade-down" data-aos-anchor-placement="top-bottom">개인프로젝트(1인)</h3>
                                 <h3 data-aos="fade-down" data-aos-anchor-placement="top-bottom">Java, JFrame, Oracle</h3>
                                 <div>
@@ -163,18 +184,44 @@
                                 </div>
                             </li>
 
+
+
+
+                            
                             <li>
-                                <h1 class="projects-h1">도서관리프로그램(2023) - Backend개발</h1>
+                                <h1>Wumpus World(2023) - Backend개발</h1>
                                 <hr>
-                                <h2 data-aos="fade-down" data-aos-anchor-placement="bottom-center"><a href="https://github.com/Ohsaam/bookSideProject" target="blank">도서관리프로그램 개발</a></h2>
-                                <h3 data-aos="fade-down" data-aos-anchor-placement="top-bottom">개인프로젝트(1인)</h3>
-                                <h3 data-aos="fade-down" data-aos-anchor-placement="top-bottom">HTML, JavaScript, CSS, firebase(DB)</h3>
+                                <h2 data-aos="fade-down" data-aos-anchor-placement="bottom-center"><a href="https://github.com/Ohsaam/WumpusWorld-AI" target="blank">KB 기반 에이전트 구현 및 Wumpus 구현<i class="xi-github"></i><span style="font-size: 14px;">클릭 시 깃허브 페이지로 이동합니다.</span></a></h2>
+                                <h2 data-aos="fade-down" data-aos-anchor-placement="bottom-center"><a href = "https://www.notion.so/Wumpus-world-0d93e4ef945247349a1fdb11ae95c39b"><span style="font-size: 14px;">클릭 시 노션 페이지로 이동합니다.</span></a></h2>
+                                <h3 data-aos="fade-down" data-aos-anchor-placement="top-bottom">인공지능(5인)</h3>
+                                <h3 data-aos="fade-down" data-aos-anchor-placement="top-bottom">Python</h3>
                                 <div>
-                                    <img data-aos="fade-right" src="./res/project/Book/Book.png" alt="">
-                                    <img data-aos="fade-left" src="./res/project/Book/회원가입.png" alt="">
-                                    <img data-aos="fade-left" src="./res/project/Book/게시판.png" alt="">
+                                    <img data-aos="fade-right" src="res/project/Wumpus/1.jpg" alt="">
+                                    <img data-aos="fade-up" src="res/project/Wumpus/2.jpg" alt="">
+                                    <img data-aos="fade-left" src="res/project/Wumpus/3.jpg" alt="">
                                 </div>
                             </li>
+
+
+
+                            <li>
+                                <h1 class="projects-h1">Socket Programming(2022) - Backend개발</h1>
+                                <hr>
+                                <h2 data-aos="fade-down" data-aos-anchor-placement="bottom-center"><a href="https://github.com/Ohsaam/socketprograming" target="blank">TCP/IP 활용한 이메일 전송 프로그램<i class="xi-github"></i><span style="font-size: 14px;">클릭 시 깃허브 페이지로 이동합니다.</span></a></h2>
+                                <h3 data-aos="fade-down" data-aos-anchor-placement="top-bottom">컴퓨터와네트워크(5인)</h3>
+                                <h3 data-aos="fade-down" data-aos-anchor-placement="top-bottom">Python,twilio,tkinter,hashlib</h3>
+                                <div>
+                                    <img data-aos="fade-right" src="res/project/Socket/1.jpg" alt="">
+                                    <img data-aos="fade-up" src="res/project/Socket/2.jpg" alt="">
+                                    <img data-aos="fade-left" src="res/project/Socket/3.jpg" alt="">
+                                </div>
+                            </li>
+                           
+
+
+
+
+
 
                         </ul>
                     </div>
